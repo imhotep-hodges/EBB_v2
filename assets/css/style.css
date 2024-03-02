@@ -1634,10 +1634,11 @@ body.animate {
 
 .content p {
 	margin-bottom: 15px;
-	line-height: 21px;
+	line-height: 19px;
 	color: #333;
 	font-weight: normal;
-	font-family:Arial, Helvetica, sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 0.2px;
 }
 
 .modal-inner-text img {
@@ -1945,7 +1946,12 @@ body.animate {
 
 .blog-main-container {
 	padding: 80px 0px;
+	background: #171717;
+	position: relative;
+	
 }
+
+
 
 .blog-img {
 	height: 358px;
@@ -2046,6 +2052,12 @@ body.animate {
 .bgcolor-blue:hover {
 	-webkit-box-shadow: 0 0 11px rgba(64, 70, 80, 1);
 	box-shadow: 0 0 11px rgba(64, 70, 80, 1);
+}
+
+.policies-container {
+	padding: 80px 0px;
+	
+	
 }
 
 
